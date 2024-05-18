@@ -6,7 +6,7 @@ using System;
 public class Recoleccion_monedas : MonoBehaviour
 {
     public int cantidadMonedas;
-    public int totalMonedas = 12;
+    public int totalMonedas = 13;
     //FUTURO CANVAS
     // public TextMeshProUGUI numero;
     //private void Update() {
@@ -22,7 +22,7 @@ public class Recoleccion_monedas : MonoBehaviour
         }
         if (cantidadMonedas == totalMonedas)
         {
-            Debug.Log("¡Has recolectado 12 monedas! Saliendo del juego...");
+            Debug.Log("¡Has recolectado 13 monedas! Saliendo del juego...");
 #if UNITY_EDITOR
             UnityEditor.EditorApplication.isPlaying = false;
 #else
